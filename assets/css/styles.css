@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.categories::-webkit-scrollbar{
+    display: none;
+}
+
+.swiper-pagination-bullet{
+    background-color:#292D32 ;
+}
+
+.swiper-pagination-bullet-active{
+    width: 32px;
+    border-radius: 20px;
+}

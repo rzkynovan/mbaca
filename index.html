@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Mbaca</title>
+</head>
+<body>
+    <main class="hidden md:block">
+        <p class="text-center mt-10 text-3xl"><b>For mobile view Only</b></p>
+    </main>
+    <main class="block md:hidden mb-28" id="app">
+        <nav class="fixed bottom-0 shadow-lg shadow-gray-700 w-screen z-10 bg-white">
+            <div class="container px-6 py-4 ">
+                <ul class="flex items-center justify-between">
+                    <li class="active bg-gray-700 py-3 px-6 rounded-full text-white -mr-2">
+                        <a href="" class="flex items-center gap-2 text-md">
+                            <i class="ri-home-4-fill text-3xl"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="text-gray-400">
+                            <i class="ri-compass-fill text-3xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="text-gray-400">
+                            <i class="ri-book-3-fill text-3xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="text-gray-400">
+                            <i class="ri-user-fill text-3xl"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="header mt-7 px-4" id="header">
+            <div class="flex justify-between items-center">
+                <img src="assets/img/brand.png" alt="" class="pr-2">
+                <div class="flex text-2xl text-gray-700 gap-4">
+                    <button href="" class="duration-500" id="searchToggle"><i class="ri-search-line block"></i></button>
+                    <input type="text" name="" id="searchInput" class="bg-gray-700 hidden text-white text-sm ease-in-out px-2 duration-500 rounded-lg">
+                    <a href=""><i class="ri-notification-2-fill"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category px-4" id="category">
+            <div class="container mt-6">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-semibold">Categories</h2>
+                    <a href="" class="text-gray-500 text-md">See More</a>
+                </div>
+
+                <div class="categories flex overflow-x-scroll mt-4 gap-1 ">
+                    <a href="" class="px-4 py-2 border-2 border-gray-200 rounded-full text-gray-400 whitespace-nowrap">Productivity</a>
+                    <a href="" class="px-4 py-2 border-2 border-gray-200 rounded-full text-gray-400 whitespace-nowrap">Mental health</a>
+                    <a href="" class="px-4 py-2 border-2 border-gray-200 rounded-full text-gray-400 whitespace-nowrap">Relaxing time</a>
+                    <a href="" class="px-4 py-2 border-2 border-gray-200 rounded-full text-gray-400 whitespace-nowrap">Family</a>
+                </div>
+            </div>
+            <hr class="block border-y-1 border-gray-200 w-100 my-4">
+        </section>
+
+        <section class="page px-4" id="page">
+            <div class="swiper pageSwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="container bg-gray-800 text-white py-4 px-4 rounded-2xl">
+                        <h1 class="text-2xl font-semibold">#For your page</h1>
+                        <div class="flex flex-col mt-5 gap-3">
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <!-- <div class="bg-contain rounded-xl bg-no-repeat  w-28" style="background-image:url('assets/img/image2.png');" ></div> -->
+                                <img src="assets/img/image2.png" class="w-28 rounded-xl" alt="">
+                                <p>5 activities you can do if you're bored working at home</p>
+                            </div>
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <img src="assets/img/image3.png" class="w-28 rounded-xl" alt="">
+                                <p>A quiet place for self relaxation in East Java</p>
+                            </div>
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <img src="assets/img/image1.png" class="w-28 rounded-xl" alt="">
+                                <p>Kinds of fruit to improve brain performance</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="container bg-gray-800 text-white py-4 px-4 rounded-2xl">
+                        <h1 class="text-2xl font-semibold">#For your page</h1>
+                        <div class="flex flex-col mt-5 gap-3">
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <!-- <div class="bg-contain rounded-xl bg-no-repeat  w-28" style="background-image:url('assets/img/image2.png');" ></div> -->
+                                <img src="assets/img/image2.png" class="w-28 rounded-xl" alt="">
+                                <p>5 activities you can do if you're bored working at home</p>
+                            </div>
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <img src="assets/img/image3.png" class="w-28 rounded-xl" alt="">
+                                <p>A quiet place for self relaxation in East Java</p>
+                            </div>
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <img src="assets/img/image1.png" class="w-28 rounded-xl" alt="">
+                                <p>Kinds of fruit to improve brain performance</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="container bg-gray-800 text-white py-4 px-4 rounded-2xl">
+                        <h1 class="text-2xl font-semibold">#For your page</h1>
+                        <div class="flex flex-col mt-5 gap-3">
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <!-- <div class="bg-contain rounded-xl bg-no-repeat  w-28" style="background-image:url('assets/img/image2.png');" ></div> -->
+                                <img src="assets/img/image2.png" class="w-28 rounded-xl" alt="">
+                                <p>5 activities you can do if you're bored working at home</p>
+                            </div>
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <img src="assets/img/image3.png" class="w-28 rounded-xl" alt="">
+                                <p>A quiet place for self relaxation in East Java</p>
+                            </div>
+                            <div class="card bg-white flex items-center gap-4 text-gray-900 p-2 rounded-xl" style="min-height: 72px;">
+                                <img src="assets/img/image1.png" class="w-28 rounded-xl" alt="">
+                                <p>Kinds of fruit to improve brain performance</p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+            <div class="relative">
+                <div class="swiper-pagination translate-y-10" ></div>
+            </div>
+            
+        </section>
+
+        <section class="author px-4 mt-10" id="author">
+            <div class="container">
+                <div class="flex justify-between items-center">
+                    <h2 class="text-2xl font-semibold">Author</h2>
+                    <a href="" class="text-gray-500 text-md">See More</a>
+                </div>
+                <div class="swiper authorSwiper mt-4">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="card border-2 border-gray-200 rounded-2xl p-4">
+                            <div class="header flex justify-between">
+                                <div class="flex gap-2 items-center">
+                                    <img src="assets/img/Fuad.png" class="flex-none w-9 h-9"  alt="">
+                                    <div class="flex flex-col">
+                                        <h4 class="text-md font-semibold">Fuad</h4>
+                                        <p>@fuadinl0v3</p>
+                                    </div>
+                                </div>
+                                <a href="" class="bg-gray-800 rounded-full flex items-center px-4 py-2 text-white">Follow</a>
+                            </div>
+
+                            <p class="whitespace-pre mt-4 text-wrap">Hi everyone!
+Call me Fuad, people say I'm an 
+expert in love. 🥰
+                            </p>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="card border-2 border-gray-200 rounded-2xl p-4">
+                            <div class="header flex justify-between">
+                                <div class="flex gap-2 items-center">
+                                    <img src="assets/img/raymond.png" class="flex-none w-9 h-9"  alt="">
+                                    <div class="flex flex-col">
+                                        <h4 class="text-md font-semibold">Raymond</h4>
+                                        <p>@raychins</p>
+                                    </div>
+                                </div>
+                                <a href="" class="bg-gray-800 rounded-full flex items-center px-4 py-2 text-white">Follow</a>
+                            </div>
+
+                            <p class="whitespace-pre mt-4">Hello folks!
+I am a blogger who discusses 
+productivity activities.
+                            </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
