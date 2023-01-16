@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Mbaca</title>
+</head>
+<body>
+    <main class="hidden md:block">
+        <p class="text-center mt-10 text-3xl"><b>For mobile view Only</b></p>
+    </main>
+    <main class="block md:hidden mb-28" id="app">
+        <nav class="fixed bottom-0 shadow-lg shadow-gray-700 w-screen z-20 bg-white">
+            <div class="container px-6 py-4 ">
+                <ul class="flex items-center justify-between">
+                    <li>
+                        <a href="" class="text-gray-400">
+                            <i class="ri-home-4-fill text-3xl"></i>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="text-gray-400">
+                            <i class="ri-compass-fill text-3xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="text-gray-400">
+                            <i class="ri-book-3-fill text-3xl"></i>
+                        </a>
+                    </li>
+                    <li  class="active bg-gray-700 py-3 px-6 rounded-full text-white -ml-2">
+                        <a href="" class="flex items-center gap-2 text-md">
+                            <i class="ri-user-fill text-2xl"></i>
+                            Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header px-4 mt-6 flex justify-between items-center">
+            <p class="font-bold text-xl">Profile</p>
+            <a href="">
+                <i class="ri-settings-3-fill text-3xl"></i>
+            </a>
+        </div>
+
+        <div class="profiles bg-no-repeat bg-cover p-4 pb-16 mt-2" style="background-image: url('assets/img/bg-profile.png');">
+            <div class="profile translate-y-8">
+                <img src="assets/img/profile.png" alt="">
+                <h2 class="font-semibold text-2xl text-white mt-4">Ryan Ardiansyah</h2>
+            </div>
+        </div>
+
+        <section class="about">
+            <div class="container"></div>
+        </section>
+
+    </main>
+</body>
+<script src="assets/js/main.js"></script>
+</html>
